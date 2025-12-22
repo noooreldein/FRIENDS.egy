@@ -1,13 +1,7 @@
 'use client'
 
-import { useEffect, useState } from 'react'
-import { useRouter } from 'next/navigation'
-import { useAuth } from '@/contexts/AuthContext'
-import { supabase } from '@/lib/supabase'
-import { Product } from '@/types'
-import { Plus, Edit, Trash2, Eye } from 'lucide-react'
-import Link from 'next/link'
-import Image from 'next/image'
+import { useAuth } from '../../../contexts/AuthContext'
+import { supabase } from '../../../lib/supabase'
 
 export default function AdminProducts() {
   const { user, loading } = useAuth()

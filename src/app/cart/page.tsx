@@ -1,13 +1,9 @@
 'use client'
 
-import { useState } from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
-import { useCart } from '@/contexts/CartContext'
-import { useAuth } from '@/contexts/AuthContext'
-import { Header } from '@/components/Header'
-import { Footer } from '@/components/Footer'
-import { Minus, Plus, Trash2, ShoppingBag } from 'lucide-react'
+import { useCart } from '../../contexts/CartContext'
+import { useAuth } from '../../contexts/AuthContext'
+import { Header } from '../../components/Header'
+import { Footer } from '../../components/Footer'
 
 export default function CartPage() {
   const { user } = useAuth()

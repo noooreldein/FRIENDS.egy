@@ -2,8 +2,7 @@
 
 import { createContext, useContext, useEffect, useState } from 'react'
 import { User } from '@/types'
-import { supabase } from '@/lib/supabase'
-
+import { supabase } from '../lib/supabase'
 interface AuthContextType {
   user: User | null
   loading: boolean

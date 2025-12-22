@@ -2,7 +2,7 @@
 
 import { createContext, useContext, useEffect, useState } from 'react'
 import { useAuth } from './AuthContext'
-import { supabase } from '@/lib/supabase'
+import { supabase } from '../lib/supabase'
 import { Product } from '@/types'
 
 interface CartItem {

@@ -1,4 +1,4 @@
-HEAD
+
 'use client'
 
 import { useEffect, useState } from 'react'
@@ -231,4 +231,4 @@ export function ProductGrid() {
     </div>
   )
 }
-b242b1431e2f7889bf4859690fb3516cb5900093
+

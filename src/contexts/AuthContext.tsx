@@ -1,4 +1,3 @@
-HEAD
 'use client'
 
 import { createContext, useContext, useEffect, useState } from 'react'
@@ -96,7 +95,6 @@ export function useAuth() {
   }
   return context
 }
-'use client'
 
 import { createContext, useContext, useEffect, useState } from 'react'
 import { User } from '@/types'

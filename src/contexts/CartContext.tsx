@@ -1,4 +1,3 @@
-HEAD
 'use client'
 
 import { createContext, useContext, useEffect, useState } from 'react'
@@ -202,8 +201,6 @@ export function useCart() {
   }
   return context
 }
-
-'use client'
 
 import { createContext, useContext, useEffect, useState } from 'react'
 import { useAuth } from './AuthContext'

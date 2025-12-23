@@ -1,7 +1,10 @@
 'use client'
 
+import { useState, useEffect } from 'react'
+import { useRouter } from 'next/navigation'
 import { useAuth } from '../../../contexts/AuthContext'
 import { supabase } from '../../../lib/supabase'
+import { Product } from '@/types' // تأكد لو دي بتطلع Error غيرها لمسار نسبي ../../
 
 export default function AdminProducts() {
   const { user, loading } = useAuth()

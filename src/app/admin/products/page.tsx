@@ -1,4 +1,5 @@
 'use client'
+import { useCart } from '../contexts/CartContext';
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'

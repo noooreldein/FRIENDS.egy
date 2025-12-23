@@ -1,6 +1,6 @@
 
 'use client'
-
+import { Eye, ShoppingCart } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import { Product } from '@/types'

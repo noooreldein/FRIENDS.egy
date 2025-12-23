@@ -1,5 +1,7 @@
 'use client'
-
+import Link from 'next/link'
+import Image from 'next/image'
+import { ShoppingBag, Minus, Plus, Trash2 } from 'lucide-react'
 import { useCart } from '../../contexts/CartContext'
 import { useAuth } from '../../contexts/AuthContext'
 import { Header } from '../../components/Header'

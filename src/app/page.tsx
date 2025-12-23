@@ -3,10 +3,10 @@
 import { Header } from '../components/Header'
 import { ProductGrid } from '../components/ProductGrid'
 import { Footer } from '../components/Footer'
-import { useCart } from '../contexts/CartContext' // السطر ده هو اللي كان ناقص
+import { useCart } from '../contexts/CartContext' // ده السطر اللي بيحل المشكلة
 
 export default function Home() {
-  // بنعرف الـ useCart هنا عشان نتأكد إن الصفحة شايفة الـ Context
+  // السطر ده وظيفته يخلي الصفحة تتعرف على السلة
   const cart = useCart(); 
 
   return (

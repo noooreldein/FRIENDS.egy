@@ -1,4 +1,3 @@
-
 'use client'
 import { Eye, ShoppingCart } from 'lucide-react'
 import { useEffect, useState } from 'react'
@@ -6,6 +5,8 @@ import Image from 'next/image'
 import { Product } from '@/types'
 import { supabase } from '../lib/supabase'
 import Link from 'next/link'
+import { useCart } from '../contexts/CartContext' // السطر ده كان ناقص
+import { useAuth } from '../contexts/AuthContext' // السطر ده كمان كان ناقص
 
 export function ProductGrid() {
   const [products, setProducts] = useState<Product[]>([])

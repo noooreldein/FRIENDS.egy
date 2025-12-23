@@ -4,8 +4,7 @@
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import { Product } from '@/types'
-import { supabase } from '@/lib/supabase'
-import { ShoppingCart, Eye } from 'lucide-react'
+import { supabase } from '../lib/supabase'
 import Link from 'next/link'
 
 export function ProductGrid() {

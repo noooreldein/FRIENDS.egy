@@ -1,11 +1,11 @@
 'use client'
-
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
+import Link from 'next/link'
+import Image from 'next/image'
+import { Plus, Eye, Edit, Trash2 } from 'lucide-react'
 import { useAuth } from '../../../contexts/AuthContext'
 import { supabase } from '../../../lib/supabase'
-import { Product } from '@/types' // تأكد لو دي بتطلع Error غيرها لمسار نسبي ../../
-
 export default function AdminProducts() {
   const { user, loading } = useAuth()
   const router = useRouter()
